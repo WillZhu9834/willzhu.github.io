@@ -1,0 +1,50 @@
+    .main {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    .image {
+      width: 100%;
+      cursor: pointer;
+      border-width: 8px;
+      border-color: white;
+      border-style: solid;
+      box-shadow: 2px 2px 4px grey;
+    }
+
+
+    .painting-title {
+      margin-top: 0;
+      margin-bottom: 12px;
+      line-height: 20px;
+      font-weight: 500;
+      cursor: pointer;
+      font-family: Roboto, Arial;
+      text-align: center;
+    }
+
+
+    .painting-preview-grid {
+      padding-bottom: 40px;
+      padding-left: 10px;
+      width: 320px;
+      display: flex; 
+      flex-direction: column;
+    }
+     .cover {
+      position: relative;
+      margin-bottom: 12px;
+  
+    }
+    .size{
+      position: absolute;
+      bottom: 12px;
+      right: 5px;
+      padding: 2px 6px;
+      background-color: rgba(0, 0, 0, 0.541);
+      color: white; 
+      font-size: 12px;
+      font-family: Roboto, Arial;
+      border-radius: 5px;
+
+    }
